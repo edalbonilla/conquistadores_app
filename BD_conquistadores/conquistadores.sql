@@ -158,6 +158,11 @@ CREATE TABLE `area` (
   `descripcion` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
+CREATE TABLE `prueba` (
+  `idArea` int(11) NOT NULL,
+  `nombreArea` varchar(75) NOT NULL,
+  `descripcion` text NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 --
 -- Volcado de datos para la tabla `area`
 --
